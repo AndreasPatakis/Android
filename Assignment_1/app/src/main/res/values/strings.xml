@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Speed Tracker</string>
+
+    <string-array name="spinnerOptions">
+        <item>All</item>
+        <item>Last week</item>
+        <item>Last month</item>
+    </string-array>
+</resources>

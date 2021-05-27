@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "33225447112",
+    "firebase_url": "https://thapp-a2713.firebaseio.com",
+    "project_id": "thapp-a2713",
+    "storage_bucket": "thapp-a2713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33225447112:android:d0f7c4604c29bebeee37fd",
+        "android_client_info": {
+          "package_name": "com.unipi.talepis.a7thapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33225447112-s8uqm2gqski83keqm097r8bob2v9fuv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlX_M4Uz8Wijk0UAo8yNVZAr2FviiHn_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33225447112-s8uqm2gqski83keqm097r8bob2v9fuv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

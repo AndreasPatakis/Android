@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".NewUser">
+
+    <TextView
+        android:id="@+id/speedTrackerStaring"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:text="···Speed Tracker···"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="113dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speedTrackerStaring"
+        app:srcCompat="@drawable/running" />
+
+    <TextView
+        android:id="@+id/userNewUser"
+        android:layout_width="101dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:text="Hello there "
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textNewUser"
+        android:layout_width="356dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="40dp"
+        android:text="It seems like this is your first time using Speed Tracker.\n\nWe would like to know what is your desired speed limit."
+        android:textColor="#A37EE4"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNewUser" />
+
+    <EditText
+        android:id="@+id/speedEditTextNewUser"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNewUser"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginBottom="112dp"
+        android:text="Km/h"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/speedEditTextNewUser"
+        app:layout_constraintTop_toBottomOf="@+id/textNewUser"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <Button
+        android:id="@+id/submitNewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#009688"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNewUser"
+        app:layout_constraintVertical_bias="0.979" />
+</androidx.constraintlayout.widget.ConstraintLayout>

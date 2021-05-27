@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+
+    <string-array name="spinnerLanguageOptions">
+        <item>English</item>
+        <item>Ελληνικά</item>
+    </string-array>
+    <!--MAIN ACTIVITY-->
+    <string name="main_textView_signin">Sign in</string>
+    <string name="main_edit_emailHint">Email</string>
+    <string name="main_edit_passwordHint">Password</string>
+    <string name="main_button_login">login</string>
+    <string name="main_textView_registerMessage">Not registered yet? Click the button below to register now!</string>
+    <string name="main_button_register">register</string>
+
+    <!--SIGN UP ACTIVITY-->
+    <string name="signup_textView_signup">Sign Up</string>
+    <string name="signup_edit_firstnameHint">First Name</string>
+    <string name="signup_edit_lastnameHint">Last Name</string>
+    <string name="signup_edit_emailHint">Email</string>
+    <string name="signup_edit_passwordHint">Password</string>
+    <string name="signup_edit_addressHint">Address</string>
+    <string name="signup_edit_regionHint">Region</string>
+    <string name="signup_button_register">register</string>
+
+    <!--MENU ACTIVITY-->
+    <string name="menu_textView_message">Message:</string>
+    <string name="menu_button_send">send</string>
+
+    <!--SETTINGS ACTIVITY-->
+    <string name="settings_textView_settings">Settings:</string>
+
+    <!--USERS INFO ACTIVITY-->
+    <string name="usersInfo_textView_usersInfo">Users Information</string>
+    <string name="usersInfo_textView_firstname">First Name:</string>
+    <string name="usersInfo_textView_lastname">Last Name:</string>
+    <string name="usersInfo_textView_address">Address:</string>
+    <string name="usersInfo_textView_region">Region:</string>
+    <string name="usersInfo_button_save">save</string>
+
+    <!--NEW MESSAGE-->
+    <string name="newMessage_textView_manage">Manage Messages</string>
+    <string name="newMessage_textView_code">Code</string>
+    <string name="newMessage_textView_message">Message</string>
+    <string name="newMessage_button_save">add/save</string>
+    <string name="newMessage_button_delete">delete</string>
+    <string name="newMessage_button_modify">modify</string>
+
+</resources>

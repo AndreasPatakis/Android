@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597198455431",
+    "project_id": "assignment2-c7a6a",
+    "storage_bucket": "assignment2-c7a6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597198455431:android:cb9cec864da64c8cb36e22",
+        "android_client_info": {
+          "package_name": "com.unipi.talepis.fifthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597198455431-8gj5568geie5i5sjhvvtjhfb42fvf7f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPZlUANM4nxf8r4qeZnWlxt1Bohf9BkBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597198455431-8gj5568geie5i5sjhvvtjhfb42fvf7f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
